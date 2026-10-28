@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Model weights and checkpoints
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Local data
+data/
+*.parquet
+
+# Logs and temporary files
+logs/
+.streamlit/secrets.toml
+.ipynb_checkpoints/
